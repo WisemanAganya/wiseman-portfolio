@@ -213,7 +213,7 @@ export default function App() {
             ))}
           </div>
 
-          <a href={`mailto:${PERSONAL_INFO.email}`} className="px-5 py-2 bg-white text-slate-900 text-[11px] font-black rounded-full hover:bg-brand-cyan transition-colors">
+          <a href="#contact" className="px-5 py-2 bg-white text-slate-900 text-[11px] font-black rounded-full hover:bg-brand-cyan transition-colors">
             CONTACT
           </a>
         </div>
@@ -274,7 +274,7 @@ export default function App() {
                 <a href={PERSONAL_INFO.linkedin} target="_blank" className="p-5 rounded-2xl bg-white/5 border border-white/10 hover:border-brand-cyan hover:text-brand-cyan transition-all">
                   <Linkedin size={24} />
                 </a>
-                <a href={`mailto:${PERSONAL_INFO.email}`} className="p-5 rounded-2xl bg-white/5 border border-white/10 hover:border-brand-cyan hover:text-brand-cyan transition-all">
+                <a href="#contact" className="p-5 rounded-2xl bg-white/5 border border-white/10 hover:border-brand-cyan hover:text-brand-cyan transition-all">
                   <Mail size={24} />
                 </a>
               </div>
@@ -447,7 +447,7 @@ export default function App() {
       </section>
 
       {/* Footer: Epic Sign-off */}
-      <footer className="pt-64 pb-24 px-6 max-w-7xl mx-auto relative z-10 text-center">
+      <footer id="contact" className="pt-64 pb-24 px-6 max-w-7xl mx-auto relative z-10 text-center">
         <motion.div 
           initial={{ opacity: 0, scale: 0.9 }}
           whileInView={{ opacity: 1, scale: 1 }}
