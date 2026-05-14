@@ -163,6 +163,7 @@ export const PROJECTS = [
     github: "https://github.com/WisemanAganya/NJO-Bar",
     demo: "https://njo-bar.vercel.app/"
   },
+/*
   {
     title: "AWT Group",
     client: "Corporate Operations",
@@ -171,6 +172,7 @@ export const PROJECTS = [
     github: "https://github.com/WisemanAganya/Awt_Group",
     demo: "https://awt-group.vercel.app/"
   },
+*/
   {
     title: "Tweletu Band",
     client: "Entertainment",
